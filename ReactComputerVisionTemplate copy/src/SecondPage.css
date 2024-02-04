@@ -1,0 +1,67 @@
+.secondpag {
+    background: #ffe9f6 ;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    width: auto;
+    height: 50px;
+}
+
+.yt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Spline Sans Mono", Helvetica;
+    font-size: 20px;
+    height: 45vh;
+}
+
+.videoiframe {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transform: scale(0.75);
+    margin-top: -150px;
+    margin-bottom: -10px;
+}
+
+.dp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Spline Sans Mono", Helvetica;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+.buttoncont {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 0px;
+}
+
+.todetect {
+    background: #dbc6d1;
+    border-radius: 8px;
+    border-style: transparent;
+    border-color: #ae8e9b;
+    border-width: 2px;
+    padding: 12px 32px;
+    color: #000000;
+    font-family: "DM Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.todetect:hover {
+    background: #c29dac;
+}
